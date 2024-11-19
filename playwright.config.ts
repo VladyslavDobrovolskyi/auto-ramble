@@ -12,7 +12,7 @@ export default defineConfig({
 
 	projects: [
 		{
-			name: 'todolist.james.am',
+			name: 'microsoftedge.github.io',
 			use: {
 				...devices['Desktop Chrome'],
 				baseURL: 'https://microsoftedge.github.io/Demos/demo-to-do/',
