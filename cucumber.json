@@ -1,0 +1,13 @@
+{
+	"microsoftedge.github.io": {
+		"loader": ["ts-node/esm"],
+		"import": ["./microsoftedge.github.io/*.steps.ts"],
+		"paths": ["./microsoftedge.github.io/*.feature"],
+
+		"format": [
+			"progress",
+			"html:./microsoftedge.github.io/reports/cucumber-report.html",
+			"json:./microsoftedge.github.io/reports/cucumber-report.json"
+		]
+	}
+}
