@@ -4,8 +4,8 @@
 тестированием веб-сайты и веб-приложения с использованием различных технологий
 и применяю теорию и практики тестирования.
 ```
-| Сайт | Технологии | Сценарии | Комментарий |
-|------|------------|----------|-------------|
-| [microsoftedge.github.io/Demos/demo-to-do](https://microsoftedge.github.io/Demos/demo-to-do/) | Playwright/Test, BDD Cucumber |  [Ссылка на тест-кейсы](https://github.com/VladyslavDobrovolskyi/auto-ramble/blob/main/microsoftedge.github.io/testcases.md) | Использовался @playwright/test и как альтернатива cucumber.js. Был применен паттерн Page Object Model|
+| Сайт | Технологии | Сценарии | Комментарий |Видео  |
+|------|------------|----------|-------------|-------|
+| [microsoftedge.github.io/Demos/demo-to-do](https://microsoftedge.github.io/Demos/demo-to-do/) | Playwright/Test, BDD Cucumber |  [Ссылка на тест-кейсы](https://github.com/VladyslavDobrovolskyi/auto-ramble/blob/main/microsoftedge.github.io/testcases.md) | Использовался @playwright/test и как альтернатива cucumber.js. Был применен паттерн Page Object Model| https://youtu.be/LAgZMy6-0zM |
 
 
