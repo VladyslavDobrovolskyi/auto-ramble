@@ -118,8 +118,8 @@ test('Check the background of Dark Theme', async ({ page }) => {
 	expect(bgColor).toBe('rgb(34, 34, 34)')
 })
 
-test('Check the background of Light Theme', async ({ TODO, page }) => {
-	page.emulateMedia({ colorScheme: 'light' })
+test('Check the background of Light Theme', async ({page }) => {
+	await page.emulateMedia({colorScheme: 'light'})
 	const bgColor = await page.evaluate(() => {
 		const htmlElement = document.querySelector('body')
 		if (htmlElement) {
