@@ -106,8 +106,8 @@ test('Check The "No task defined" when task is not created', async ({ TODO }) =>
 	expect(await element.innerHTML()).toEqual('No tasks defined')
 })
 
-test('Check the background of Dark Theme', async ({ TODO, page }) => {
-	page.emulateMedia({ colorScheme: 'dark' })
+test('Check the background of Dark Theme', async ({ page }) => {
+	await page.emulateMedia({ colorScheme: 'dark' })
 	const bgColor = await page.evaluate(() => {
 		const htmlElement = document.querySelector('body')
 		if (htmlElement) {
