@@ -40,7 +40,7 @@ test('Move task from "Completed to "To do"', async ({ TODO }) => {
 		expect(isTaskCompleted).toBeTruthy()
 		await createdTask.click()
 		isTaskCompleted = await TODO.isTaskCompleted(createdTask)
-		expect(isTaskCompleted).toBeFalsy
+		expect(isTaskCompleted).toBeFalsy()
 	}
 })
 
