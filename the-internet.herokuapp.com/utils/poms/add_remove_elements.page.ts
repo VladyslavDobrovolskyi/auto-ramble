@@ -13,7 +13,7 @@ class AddRemoveElementsPage extends Page {
 	}
 
 	public open() {
-		return super.open('add_remove_elements')
+		return super.open('add_remove_elements/')
 	}
 
 	public get do() {
